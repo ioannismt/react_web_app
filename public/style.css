@@ -1,0 +1,55 @@
+.background-gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .gallery-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .gallery-image.active {
+    opacity: 1;
+  }
+  
+  .gallery-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .gallery-button {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .gallery-button i {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .gallery-button:hover {
+    background-color: #ddd;
+  }
