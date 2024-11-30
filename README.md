@@ -1,13 +1,12 @@
-# My React App
+# React Web App
 A web application built with React, Redux, and CSS, allowing users to interact with various features.
 
 # About
 ### Project Description
-My React App is a web application designed to [briefly describe the purpose and main features of your app]. It utilizes React for the frontend, Redux for state management, and CSS for styling.
+This React App is a web application designed to for a rental apartments website. It utilizes React for the frontend and CSS for styling.
 
 ### Project Status
-This project is currently in development. Users can [describe current functionality], and additional features such as [mention upcoming features] are in progress.
-
+This project is currently in development.
 Installation and Setup Instructions
 Prerequisites
 ```
@@ -18,11 +17,11 @@ Git: Install Git from Git.
 
 bash
 # Clone the repository
-git clone https://github.com/your_username/your_repo_name.git
+git clone https://github.com/ioannismt/react_web_app.git
 
 # Navigate to the project directory
 ```
-cd your_repo_name
+cd react_web_app
 ```
 
 # Install dependencies
@@ -58,20 +57,16 @@ If your application has a backend, describe it here. For example:
     React Router: For client-side routing.
     CSS/Sass: For styling.
     Webpack: For bundling and building the application (managed by Create React App).
-    Other Libraries: List any other libraries used, such as Axios, Leaflet, etc.
 
 ### Features
 
     User Authentication: Users can log in and out of the application.
     Data Filtering: Users can filter data based on various criteria.
-    Visual Data Representation: The application includes visual representations of data using libraries like D3.
 
 ### Tools and Technologies
 
     Create React App: Used to bootstrap the project.
     Redux: Used for state management.
-    D3: Used for data visualization.
-    Other Tools: Mention any other tools or technologies used.
 
 ### Contributing
 
@@ -82,11 +77,6 @@ Steps to Contribute
     Commit Changes: Commit your changes with a meaningful commit message.
     Open a Pull Request: Open a pull request to the main branch.
 
-### Contact
-For any questions or to report issues, you can reach out to:
-
-    Your Name - @your_twitter - email@example.com
-
 ### Acknowledgments
 
     Create React App: For providing a robust boilerplate.
@@ -96,9 +86,7 @@ For any questions or to report issues, you can reach out to:
 
 ### License
 This project is under the MIT License.
-Additional Sections (Optional)
-Deployment
-If your application is deployed, describe how to deploy it here:
+
 ### Deploy the build folder to your hosting service
 ```
 npm run build
